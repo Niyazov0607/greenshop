@@ -5,7 +5,6 @@ import Link from "next/link";
 export default async function Card() {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
     const posts = await res.json();
-    s;
 
     return (
         <>
