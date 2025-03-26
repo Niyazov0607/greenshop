@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Navbar() {
     return (
         <>
-            <div className="w-full m-auto flex justify-between items-center py-4">
+            <div className="flex items-center justify-between w-full py-4 m-auto">
                 <div>
                     <Image src="/logo.png" alt="Logo" width={150} height={34} />
                 </div>
@@ -34,7 +34,7 @@ export default function Navbar() {
                         <circle cx="19" cy="21" r="1" />
                         <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
                     </svg>
-                    <p className="flex items-center gap-[5px] bg-[#46A358] py-[8px] px-[17px] rounded-[6px] text-white cursor-pointer"> 
+                    <p className="flex items-center gap-[5px] bg-[#46A358] py-[8px] px-[17px] rounded-[6px] text-white cursor-pointer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
