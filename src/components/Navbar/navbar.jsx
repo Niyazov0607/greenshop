@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { DrawerDialogDemo, LoginDesign } from "../LoginDesign/loginDesign";
+import { DialogTrigger } from "@radix-ui/react-dialog";
 
 export default function Navbar() {
     return (
@@ -51,7 +53,7 @@ export default function Navbar() {
                             <polyline points="10 17 15 12 10 7" />
                             <line x1="15" x2="3" y1="12" y2="12" />
                         </svg>
-                        Login
+                        <LoginDesign />
                     </p>
                 </div>
             </div>
